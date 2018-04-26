@@ -18,10 +18,14 @@ i(A) is information held by symbol = log2(A)
 Update: Calculation of 1-step Markov Proecess is added.
 
 Usage:
+'''
 ./entropycalc <filename> (binary)
+'''
 binary makes program to calculate entropy of all ascii values.
-
+    
 Example:
+'''
 ./entropycalc Feeding.txt
 ./entropycalc 'head.bmp.zip' binary
+'''
 Enjoy!
