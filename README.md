@@ -7,6 +7,7 @@ Program works as follows:
 
 File Entropy Calculator v1.0
 Author:   Unsal Gokdag
+
 Counts occuring of each letter and calculates the entropy via:
     H = -P(A)i(A)
 where:
