@@ -17,10 +17,10 @@ int main(int argc, char** argv)
   
   if(argc == 1)
   {
-    cout<<"File Entropy Calculator v0.3"<<endl;
+    cout<<"File Entropy Calculator v1.0"<<endl;
     cout<<"Author:   Unsal Gokdag"<<endl<<endl;
     cout<<"Counts occuring of each letter and calculates the entropy via:"<<endl<<endl;
-    cout<<"    H=-P(A)3(A)"<<endl<<endl;
+    cout<<"    H=-P(A)i(A)"<<endl<<endl;
     cout<<"where:"<<endl;
     cout<<"P(A) is probablity of symbol"<<endl;
     cout<<"3(A) is information held by symbol = log2(A)"<<endl<<endl;
