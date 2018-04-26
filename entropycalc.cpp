@@ -20,11 +20,11 @@ int main(int argc, char** argv)
     cout<<"File Entropy Calculator v1.0"<<endl;
     cout<<"Author:   Unsal Gokdag"<<endl<<endl;
     cout<<"Counts occuring of each letter and calculates the entropy via:"<<endl<<endl;
-    cout<<"    H=-P(A)i(A)"<<endl<<endl;
+    cout<<"    H = -P(A)i(A)"<<endl<<endl;
     cout<<"where:"<<endl;
     cout<<"P(A) is probablity of symbol"<<endl;
-    cout<<"3(A) is information held by symbol = log2(A)"<<endl<<endl;
-    cout<<"Update: Calcution of 1-step Markov Proecess is added."<<endl<<endl;
+    cout<<"i(A) is information held by symbol = log2(A)"<<endl<<endl;
+    cout<<"Update: Calculation of 1-step Markov Proecess is added."<<endl<<endl;
     cout<<"Usage:"<<endl;
     cout<<"./entropycalc <filename> (binary)"<<endl;
     cout<<"binary makes program to calculate entropy of all ascii values."<<endl<<endl;
